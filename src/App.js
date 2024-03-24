@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Accordian from "./components/accaordion";
+import RandomColor from "./components/random-color";
+import Counter from "./components/learn-usestate";
+import StarRating from "./components/star-rating";
+import Changeimg from "./components/change-img";
+import LoadMoreData from "./components/loade-more-button";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Accordian></Accordian>
+      <RandomColor></RandomColor>
+      <Counter></Counter>
+      <StarRating noOfStars={10}></StarRating>
+      <Changeimg></Changeimg>
+      <LoadMoreData></LoadMoreData>
     </div>
   );
 }

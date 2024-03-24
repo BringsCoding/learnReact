@@ -1,0 +1,20 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.start-rating {
+  display: flex;
+  align-items: center;
+}
+
+.start-rating {
+  cursor: pointer;
+}
+.active {
+  color: yellow;
+}
+
+.inactive {
+  color: aquamarine;
+}
